@@ -45,7 +45,7 @@ This API returns matching cities based on the search query. The relevant code in
 const response = await fetch(
   `https://api.openweathermap.org/geo/1.0/direct?q=${encodeURIComponent(
     value
-  )}&limit=5&appid=60a689a67061620d8093314c1fd9ec6c`
+  )}&limit=5&appid=api_key`
 );
 The app then:
 
